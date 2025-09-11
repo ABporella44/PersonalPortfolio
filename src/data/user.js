@@ -35,29 +35,29 @@ const INFO = {
 	projects: [
 		{
 			title: "SnapperIT",
-			description:
-				"As a junior developer at SnapperIT, I contributed to the company's official website using React class components. I focused on building foundational parts of the user interface, translating design layouts into functional and reusable components. This work gave me hands-on experience in component lifecycle methods and state management, which are core to building dynamic React applications. This project was a great opportunity to apply my knowledge of React in a professional setting and contribute to a live, client-facing website.",
+			description:"As a junior developer at SnapperIT, I contributed to the company's official website using React class components. I focused on building foundational parts of the user interface, translating design layouts into functional and reusable components.",
+			seeMore:"This work gave me hands-on experience in component lifecycle methods and state management, which are core to building dynamic React applications. This project was a great opportunity to apply my knowledge of React in a professional setting and contribute to a live, client-facing website.",
 			logo: "snapperit.png",
 		},
 
 		{
 			title: "Key Point Technologies",
-			description:
-				"At Keypoint Technologies, I was a key contributor to the Transflow product, a robust platform designed to streamline and automate the entire localization workflow for global clients. My primary responsibility was to develop a critical component of this system: the backend administration panel for user access permissions.My work centered on implementing a secure and scalable Role-Based Access Control (RBAC) system. This system was essential for ensuring that users—such as project managers, linguists, and quality assurance specialists—had precisely the right level of access to documents and project features. I was responsible for building a user-friendly and intuitive interface using React, allowing administrators to efficiently manage and assign roles. This included defining granular permissions, creating new user accounts, and assigning them to specific roles, thereby controlling their ability to view, edit, or manage documents within the Transflow platform.",
+			description:"At Keypoint Technologies, I was a key contributor to the Transflow product, a robust platform designed to streamline and automate the entire localization workflow for global clients. My primary responsibility was to develop a critical component of this system:",
+			seeMore:" the backend administration panel for user access permissions.My work centered on implementing a secure and scalable Role-Based Access Control (RBAC) system. This system was essential for ensuring that users—such as project managers, linguists, and quality assurance specialists—had precisely the right level of access to documents and project features. I was responsible for building a user-friendly and intuitive interface using React, allowing administrators to efficiently manage and assign roles. This included defining granular permissions, creating new user accounts, and assigning them to specific roles, thereby controlling their ability to view, edit, or manage documents within the Transflow platform.",
 			logo: "Transflow.png",
 		},
 
 		{
 			title: "MyPlaceForParts",
-			description:
-				"As a UI Developer for MyPlaceForParts, I played a key role in the full-scale migration and redevelopment of their e-commerce platform. Using a modern tech stack, I helped transition the application from its older version to a new, more performant, and user-friendly system.My primary responsibility was to build and enhance the user interface, working closely with a Java-based backend team. I used React.js and JavaScript to develop and implement new features, ensuring a seamless experience for auto shop professionals. My work involved creating dynamic components, improving site navigation, and optimizing performance to handle a vast catalog of automotive parts. The project successfully modernized the platform's technology, leading to significant improvements in user experience and overall site functionality.",
+			description:"As a UI Developer for MyPlaceForParts, I played a key role in the full-scale migration and redevelopment of their e-commerce platform. Using a modern tech stack, I helped transition the application from its older version to a new, more performant, and user-friendly system.",
+			seeMore:"My primary responsibility was to build and enhance the user interface, working closely with a Java-based backend team. I used React.js and JavaScript to develop and implement new features, ensuring a seamless experience for auto shop professionals. My work involved creating dynamic components, improving site navigation, and optimizing performance to handle a vast catalog of automotive parts. The project successfully modernized the platform's technology, leading to significant improvements in user experience and overall site functionality",
 			logo: "mpfp.png",
 		},
 
 		{
 			title: "Brightspeed(IQGEO)",
-			description:
-				"My role involves working as a full-stack developer to customize the IQGEO product for the Brightspeed client. I am responsible for both the front-end and back-end development, using my expertise in React and Python, respectively.As a React developer, my main focus is to tailor the user interface of the IQGEO product to meet Brightspeed's specific needs. I build and modify user-facing components to create a seamless and efficient experience for their users. This includes developing custom dashboards, interactive maps, and data visualization tools. My work ensures the application is not only functional but also aligned with Brightspeed's branding and operational workflows. I am responsible for the overall look, feel, and performance of the application's user interface.On the back end, I use Python to build the server-side logic that powers the application. This involves developing and maintaining the core systems that handle data processing, business logic, and API integrations. I create the APIs that allow the front end to communicate with the database, and I manage data storage and retrieval. My work on the back end is critical for ensuring the application is robust, scalable, and secure, providing the necessary foundation for all the front-end features I develop.",
+			description:"My role involves working as a full-stack developer to customize the IQGEO product for the Brightspeed client. I am responsible for both the front-end and back-end development, using my expertise in React and Python, respectively.As a React developer, my main focus is to tailor the user interface of the IQGEO product to meet Brightspeed's specific needs.",
+			seeMore:"This includes creating custom components, enhancing user experience, and ensuring the application is responsive and intuitive. On the back end, I utilize Python to develop and maintain server-side logic, manage database interactions, and implement APIs that support the front-end functionality. This dual role allows me to contribute to all aspects of the product's development, ensuring a cohesive and efficient solution for Brightspeed.",
 			logo: "brightspeed.png",
 		},
 	],
