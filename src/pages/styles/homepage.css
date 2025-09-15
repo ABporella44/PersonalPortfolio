@@ -47,6 +47,19 @@
 	transform: rotate(3deg);
 }
 
+.resume-download{
+	border:1px solid;
+	width: 72%;
+    margin: 30px;
+    height: 50px;
+    border-radius: 0%;
+    background-color: #3c3ce6;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
 .homepage-image-wrapper img {
 	width: 100%;
 }
@@ -89,7 +102,7 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	width:50%;
 	padding-top: 15px;
 }
 

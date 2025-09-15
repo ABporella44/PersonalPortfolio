@@ -12,7 +12,7 @@ const Works = () => {
 				icon={faBriefcase}
 				title="Work"
 				body={
-				<div style={{display:"flex"}}>
+				<div>
 					<div className="works-body">
 						<div className="work">
 							<img
@@ -52,7 +52,7 @@ const Works = () => {
 							<div className="work-duration">AUG 2020 -JUN 20221</div>
 						</div>
 					</div>
-					<div>
+					<div className="works-body">
 					<div className="work">
 							<img
 								src="./troy.png"

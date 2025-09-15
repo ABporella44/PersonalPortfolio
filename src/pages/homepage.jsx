@@ -68,6 +68,9 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
+
+
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -108,6 +111,9 @@ const Homepage = () => {
 											alt="about"
 											className="homepage-image"
 										/>
+									</div>
+									<div>
+										<a target="_blank" rel="noopener noreferrer" href="https://porellaresume.s3.eu-north-1.amazonaws.com/Porella_Abhilash_Resume+(1).pdf"><button className="resume-download">Download My Resume</button></a>
 									</div>
 								</div>
 							</div>
