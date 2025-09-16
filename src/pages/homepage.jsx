@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Button from '@mui/material/Button';
 import {
 	faTwitter,
 	faGithub,
@@ -15,7 +16,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 //import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+//import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -89,6 +90,7 @@ const Homepage = () => {
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
+
 					</div>
 
 					<div className="homepage-container">
@@ -111,9 +113,6 @@ const Homepage = () => {
 											alt="about"
 											className="homepage-image"
 										/>
-									</div>
-									<div>
-										<a target="_blank" rel="noopener noreferrer" href="https://porellaresume.s3.eu-north-1.amazonaws.com/Porella_Abhilash_Resume+(1).pdf"><button className="resume-download">Download My Resume</button></a>
 									</div>
 								</div>
 							</div>
@@ -170,11 +169,14 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+									
+				        <a target="_blank" rel="noopener noreferrer" href="https://porellaresume.s3.eu-north-1.amazonaws.com/Porella_Abhilash_Resume+(1).pdf"><Button type="primary" variant="contained" >View My Resume</Button></a>
+	
 						</div>
 
-						<div className="homepage-projects">
+						{/* <div className="homepage-projects">
 							<AllProjects />
-						</div>
+						</div> */}
 
 						<div className="homepage-after-title">
 							{/* <div className="homepage-articles">

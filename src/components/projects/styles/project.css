@@ -24,24 +24,22 @@
 
 .project-container {
 	padding: 30px;
-    border:0.5px solid;
     border-radius: 5%;
 }
 
 .project-logo {
-	width: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.project-logo img {
-	width: 100%;
-}
 
 .project-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
-	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
+	font-size: 13px;
 	font-weight: 700;
 }
 
