@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import ContactMeForm from "../pages/contactMe";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -76,6 +77,9 @@ const Contact = () => {
 					<div className="socials-container">
 						<div className="contact-socials">
 							<Socials />
+						</div>
+						<div className="contact-me-form">
+							<ContactMeForm />
 						</div>
 					</div>
 

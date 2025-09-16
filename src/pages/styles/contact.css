@@ -27,7 +27,8 @@
 
 .socials-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	margin-top: 80px;
 }
 
@@ -35,4 +36,8 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.contact-me-form{
+	width: 100%;
 }
