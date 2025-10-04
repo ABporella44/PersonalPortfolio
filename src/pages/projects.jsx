@@ -58,7 +58,7 @@ const Projects = () => {
 						</div>
 						</div>
 						   <div>
-                             <img src="desktop.png" style={{height:"400px",width:'400px'}}></img>
+                             <img src="desktop.png" alt="image" style={{height:"400px",width:'400px'}}></img>
 						   </div>
                         </div>
 						<div className="projects-list">
