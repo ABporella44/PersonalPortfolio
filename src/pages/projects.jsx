@@ -38,12 +38,13 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-container">
+						<div style={{display:'flex',justifyContent:'space-between'}}>
+						<div>
 						<div className="title projects-title">
 							Things I’ve made trying to put my dent in the
 							universe.
 						</div>
-
-						<div className="subtitle projects-subtitle">
+						<div className="subtitle projects-subtitle" style={{textAlign:"justify",hyphens:"auto",width:'93%'}}>
 							I've worked on a variety of projects over the years
 							and I'm proud of the progress I've made. Many of
 							these projects are open-source and available for
@@ -55,7 +56,11 @@ const Projects = () => {
 							learn and grow, and I'm always open to new ideas and
 							feedback.
 						</div>
-
+						</div>
+						   <div>
+                             <img src="desktop.png" style={{height:"400px",width:'400px'}}></img>
+						   </div>
+                        </div>
 						<div className="projects-list">
 							<AllProjects />
 						</div>

@@ -15,7 +15,7 @@ import "./styles/socials.css";
 
 const Socials = () => {
 	return (
-		<div className="socials">
+		<div className="socials" style={{marginTop:"50px"}}>
 			<div className="social">
 				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
 					<div className="social-icon">

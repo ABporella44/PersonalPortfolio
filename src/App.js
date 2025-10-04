@@ -9,7 +9,7 @@ import Projects from "./pages/projects";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
-
+import Services from "./pages/Services";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
@@ -27,8 +27,9 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				{/* <Route path="/articles" element={<Articles />} /> */}
-				<Route path="/article/:slug" element={<ReadArticle />} />
+				{/* <Route path="/article/:slug" element={<ReadArticle />} /> */}
 				<Route path="/contact" element={<Contact />} />
+				<Route path="/services" element={<Services />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

@@ -41,7 +41,7 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Do you wanna Touchbase ?
 						</div>
 
 						<div className="subtitle contact-subtitle">
@@ -75,12 +75,13 @@ const Contact = () => {
 					</div>
 
 					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
 						<div className="contact-me-form">
 							<ContactMeForm />
 						</div>
+						<div className="contact-socials">
+							<Socials />
+						</div>
+
 					</div>
 
 					<div className="page-footer">

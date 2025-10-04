@@ -28,7 +28,9 @@
 }
 
 .homepage-subtitle {
-	width: 85% !important;
+	width: 90% !important;
+	text-align: justify;
+	hyphens: auto;
 }
 
 .homepage-first-area-right-side {
@@ -102,7 +104,7 @@
 }
 
 .homepage-works {
-	width:50%;
+	width:100%;
 	padding-top: 15px;
 }
 

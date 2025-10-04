@@ -52,7 +52,7 @@
 .about-image-wrapper {
 	display: inline-block;
 	overflow: hidden;
-	width: 100%;
+	width: 85%;
 	border-radius: 10%;
 	transform: rotate(3deg);
 }
@@ -63,7 +63,6 @@
 }
 
 .about-socials {
-	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
