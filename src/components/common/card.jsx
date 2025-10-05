@@ -6,7 +6,7 @@ import "./styles/card.css";
 const Card = (props) => {
 	const { icon, title, body } = props;
 	return (
-		<div className="card" style={{width:"420px"}}>
+		<div className="card" style={{width:"100%"}}>
 			<div className="card-container">
 				<div className="card-header">
 					<div className="card-icon">
